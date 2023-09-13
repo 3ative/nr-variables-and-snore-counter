@@ -1,0 +1,5 @@
+    contextStorage: {
+        default: {
+            module: "localfilesystem"
+        }
+    },
