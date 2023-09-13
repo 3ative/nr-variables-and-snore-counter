@@ -1,0 +1,34 @@
+const counterName = 'snoring'; // Give the counter a unique name
+var counterValue = 3; // On's needed to trigger
+
+// If 'counterName' doesn't exist, make it an set it to 0
+if (!flow.get(counterName)) {
+    flow.set(counterName, 0);
+}
+
+// If "payload" is "reset", reset "counterName" to 0 and output "off"
+if (msg.payload === "reset") {
+    flow.set(counterName, 0);
+    msg.payload = "off";
+}
+// Only trigger if payload is "on"
+else if (msg.payload == "on") {
+    // Increment the counter
+    flow.set(counterName, flow.get(counterName) + 1);
+
+    // If "counterName" >= "counterValue"...
+    if (flow.get(counterName) >= counterValue) {
+
+        // reset "counterName" to 0 and output "on"
+        flow.set(counterName, 0), msg.payload = "on";
+
+        // "else" output nothing (null)
+    } else {
+        return null
+    }
+}
+// Otherwise (Else) payload is anything else, do nothing
+else {
+    return null
+}
+return msg;
