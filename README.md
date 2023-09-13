@@ -1,9 +1,12 @@
 # How to use Node-Red's Local and Global Variables
 
+Everything you need to know to use Local and Global variables in Node-Red.
+- I include more tips on writing Function Node code and demo a practical example of my "SNORE COUNTER"
+
 ---
 ## *Full Tutorial*
 ## YouTube: [Using Variables in Node-Red](https://youtu.be/D0eWiaJ5UCs)
-## ESPHome Code: [Door-Kitchen.Yaml](https://github.com/3ative/people-in-a-room-counter/blob/main/door-kitchen.yaml)
+## Grab the Code: [Function Node Code](https://github.com/3ative/nr-variables-and-snore-counter/blob/main/nr-the-counter.yml)
 ___
 
 #### 💖 Found this useful, want to say '*Thanks*' and support my efforts. *CHEERS*🍺
