@@ -9,7 +9,6 @@ Everything you need to know to use Local and Global variables in Node-Red.
 ## Grab the Code: 
 - [Function Node Code](https://github.com/3ative/nr-variables-and-snore-counter/blob/main/nr-the-counter.yml)
 - [Settings.js](https://github.com/3ative/nr-variables-and-snore-counter/blob/main/NR-Setting-js-code.yml)
-___
 
 ---
 ### 🤝 Found this useful, want to say 'Thanks' and support my efforts. CHEERS🍺
